@@ -1470,8 +1470,7 @@ GNU分析工具`gprof`可以有用的测量程序的性能，它记录了调用�
 
 $$
 \begin{equation}
-Xn+1=
-\left\{
+\Xn+1=\left\{
 \begin{aligned}
 Xn/2\qquad\quad\quad\text{if Xn is even}\\
 3Xn+12\qquad \text{ if Xn is old}
@@ -1479,6 +1478,7 @@ Xn/2\qquad\quad\quad\text{if Xn is even}\\
 \right.
 \end{equation}
 $$
+
 这个序列从一个初始值x0开始进行迭代，直到得到数值1。下面是对应的程序：
 
 ```c
